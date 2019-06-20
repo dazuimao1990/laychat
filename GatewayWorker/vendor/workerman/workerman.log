@@ -1,0 +1,756 @@
+2019-06-13 16:14:49 pid:9520 Workerman[start.php] start in DEBUG mode
+2019-06-13 16:15:19 pid:9529 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:15:58 pid:9529 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:16:04 pid:9529 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:20:53 pid:9520 Workerman[start.php] stopping ...
+2019-06-13 16:20:53 pid:9520 Workerman[start.php] has been stopped
+2019-06-13 16:20:57 pid:9870 Workerman[start.php] stop 
+2019-06-13 16:20:57 pid:9870 Workerman[start.php] not run
+2019-06-13 16:31:18 pid:9882 Workerman[start.php] start in DEBUG mode
+2019-06-13 16:31:51 pid:9882 Workerman[start.php] stopping ...
+2019-06-13 16:31:51 pid:9882 Workerman[start.php] has been stopped
+2019-06-13 16:31:53 pid:9892 Workerman[start.php] start in DEBUG mode
+2019-06-13 16:35:06 pid:9892 Workerman[start.php] stopping ...
+2019-06-13 16:35:06 pid:9892 Workerman[start.php] has been stopped
+2019-06-13 16:35:07 pid:9904 Workerman[start.php] start in DEBUG mode
+2019-06-13 16:37:13 pid:9913 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:37:41 pid:9904 Workerman[start.php] stopping ...
+2019-06-13 16:37:41 pid:9904 Workerman[start.php] has been stopped
+2019-06-13 16:37:43 pid:9920 Workerman[start.php] start in DEBUG mode
+2019-06-13 16:53:54 pid:9920 Workerman[start.php] stopping ...
+2019-06-13 16:53:54 pid:9920 Workerman[start.php] has been stopped
+2019-06-13 16:53:59 pid:9935 Workerman[start.php] start in DAEMON mode
+2019-06-13 16:55:00 pid:9946 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:55:10 pid:9946 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:55:25 pid:9946 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:55:31 pid:9946 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:55:37 pid:9946 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:55:40 pid:10593 Workerman[start.php] start in DAEMON mode
+2019-06-13 16:55:40 pid:10593 Workerman[start.php] already running
+2019-06-13 16:55:43 pid:9946 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 16:55:44 pid:10594 Workerman[start.php] start in DAEMON mode
+2019-06-13 16:55:44 pid:10594 Workerman[start.php] already running
+2019-06-13 16:55:50 pid:10595 Workerman[start.php] stop 
+2019-06-13 16:55:50 pid:10595 Workerman[start.php] is stopping ...
+2019-06-13 16:55:50 pid:9937 Workerman[start.php] stopping ...
+2019-06-13 16:55:50 pid:9937 Workerman[start.php] has been stopped
+2019-06-13 16:55:50 pid:10595 Workerman[start.php] stop success
+2019-06-13 16:55:52 pid:10597 Workerman[start.php] start in DAEMON mode
+2019-06-13 17:01:12 pid:10608 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 17:01:13 pid:10608 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 17:01:13 pid:10608 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 17:01:14 pid:10608 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 17:01:20 pid:10608 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-06-13 17:11:28 pid:10651 Workerman[start.php] stop 
+2019-06-13 17:11:28 pid:10651 Workerman[start.php] is stopping ...
+2019-06-13 17:11:28 pid:10599 Workerman[start.php] stopping ...
+2019-06-13 17:11:28 pid:10599 Workerman[start.php] has been stopped
+2019-06-13 17:11:28 pid:10651 Workerman[start.php] stop success
+2019-06-13 17:11:30 pid:10652 Workerman[start.php] start in DAEMON mode
+2019-06-13 17:11:35 pid:10658 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2019-06-13 17:11:35 pid:10658 Worker[10658] process terminated
+2019-06-13 17:11:35 pid:10654 worker[YourAppBusinessWorker:10658] exit with status 64000
+2019-06-13 17:11:40 pid:10664 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:213
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"chatMe...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"chatMe...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:11:40 pid:10664 Worker[10664] process terminated
+2019-06-13 17:11:40 pid:10654 worker[YourAppBusinessWorker:10664] exit with status 64000
+2019-06-13 17:11:42 pid:10657 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2019-06-13 17:11:42 pid:10657 Worker[10657] process terminated
+2019-06-13 17:11:42 pid:10654 worker[YourAppBusinessWorker:10657] exit with status 64000
+2019-06-13 17:11:48 pid:10666 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:213
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"chatMe...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"chatMe...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:11:48 pid:10666 Worker[10666] process terminated
+2019-06-13 17:11:48 pid:10654 worker[YourAppBusinessWorker:10666] exit with status 64000
+2019-06-13 17:12:21 pid:10667 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:21 pid:10667 Worker[10667] process terminated
+2019-06-13 17:12:21 pid:10654 worker[YourAppBusinessWorker:10667] exit with status 64000
+2019-06-13 17:12:23 pid:10665 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:23 pid:10665 Worker[10665] process terminated
+2019-06-13 17:12:23 pid:10654 worker[YourAppBusinessWorker:10665] exit with status 64000
+2019-06-13 17:12:24 pid:10669 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:24 pid:10669 Worker[10669] process terminated
+2019-06-13 17:12:24 pid:10654 worker[YourAppBusinessWorker:10669] exit with status 64000
+2019-06-13 17:12:27 pid:10671 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:213
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"chatMe...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"chatMe...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:27 pid:10671 Worker[10671] process terminated
+2019-06-13 17:12:27 pid:10654 worker[YourAppBusinessWorker:10671] exit with status 64000
+2019-06-13 17:12:35 pid:10656 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#13 {main}
+2019-06-13 17:12:35 pid:10656 Worker[10656] process terminated
+2019-06-13 17:12:35 pid:10654 worker[YourAppBusinessWorker:10656] exit with status 64000
+2019-06-13 17:12:36 pid:10672 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:36 pid:10672 Worker[10672] process terminated
+2019-06-13 17:12:36 pid:10654 worker[YourAppBusinessWorker:10672] exit with status 64000
+2019-06-13 17:12:39 pid:10674 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:213
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"chatMe...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"chatMe...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:39 pid:10674 Worker[10674] process terminated
+2019-06-13 17:12:39 pid:10654 worker[YourAppBusinessWorker:10674] exit with status 64000
+2019-06-13 17:12:43 pid:10670 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:40
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"init",...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"init",...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #54)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:43 pid:10670 Worker[10670] process terminated
+2019-06-13 17:12:43 pid:10654 worker[YourAppBusinessWorker:10670] exit with status 64000
+2019-06-13 17:12:48 pid:10676 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:213
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"chatMe...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"chatMe...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #60)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:48 pid:10676 Worker[10676] process terminated
+2019-06-13 17:12:48 pid:10654 worker[YourAppBusinessWorker:10676] exit with status 64000
+2019-06-13 17:12:52 pid:10675 Error: Class 'Db' not found in /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php:213
+Stack trace:
+#0 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"chatMe...')
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"chatMe...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #56)
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#8 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#14 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#15 {main}
+2019-06-13 17:12:52 pid:10675 Worker[10675] process terminated
+2019-06-13 17:12:52 pid:10654 worker[YourAppBusinessWorker:10675] exit with status 64000
+2019-06-13 17:15:11 pid:10680 Workerman[start.php] stop 
+2019-06-13 17:15:11 pid:10680 Workerman[start.php] is stopping ...
+2019-06-13 17:15:11 pid:10654 Workerman[start.php] stopping ...
+2019-06-13 17:15:11 pid:10654 Workerman[start.php] has been stopped
+2019-06-13 17:15:11 pid:10680 Workerman[start.php] stop success
+2019-06-13 17:48:01 pid:10764 Workerman[start.php] start in DEBUG mode
+2019-06-13 17:48:09 pid:10766 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#17 {main}
+2019-06-13 17:48:09 pid:10766 Worker[10766] process terminated
+2019-06-13 17:48:09 pid:10764 worker[YourAppBusinessWorker:10766] exit with status 64000
+2019-06-13 17:48:10 pid:10768 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #42)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#17 {main}
+2019-06-13 17:48:10 pid:10768 Worker[10768] process terminated
+2019-06-13 17:48:10 pid:10764 worker[YourAppBusinessWorker:10768] exit with status 64000
+2019-06-13 17:48:10 pid:10775 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:10 pid:10775 Worker[10775] process terminated
+2019-06-13 17:48:10 pid:10764 worker[YourAppBusinessWorker:10775] exit with status 64000
+2019-06-13 17:48:11 pid:10767 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #42)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#17 {main}
+2019-06-13 17:48:11 pid:10767 Worker[10767] process terminated
+2019-06-13 17:48:11 pid:10764 worker[YourAppBusinessWorker:10767] exit with status 64000
+2019-06-13 17:48:11 pid:10774 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:11 pid:10774 Worker[10774] process terminated
+2019-06-13 17:48:11 pid:10764 worker[YourAppBusinessWorker:10774] exit with status 64000
+2019-06-13 17:48:11 pid:10765 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(507): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#17 {main}
+2019-06-13 17:48:11 pid:10765 Worker[10765] process terminated
+2019-06-13 17:48:11 pid:10764 worker[YourAppBusinessWorker:10765] exit with status 64000
+2019-06-13 17:48:14 pid:10779 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(214): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"chatMe...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"chatMe...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:14 pid:10779 Worker[10779] process terminated
+2019-06-13 17:48:14 pid:10764 worker[YourAppBusinessWorker:10779] exit with status 64000
+2019-06-13 17:48:17 pid:10776 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:17 pid:10776 Worker[10776] process terminated
+2019-06-13 17:48:17 pid:10764 worker[YourAppBusinessWorker:10776] exit with status 64000
+2019-06-13 17:48:18 pid:10778 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:18 pid:10778 Worker[10778] process terminated
+2019-06-13 17:48:18 pid:10764 worker[YourAppBusinessWorker:10778] exit with status 64000
+2019-06-13 17:48:23 pid:10782 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(214): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"chatMe...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"chatMe...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:23 pid:10782 Worker[10782] process terminated
+2019-06-13 17:48:23 pid:10764 worker[YourAppBusinessWorker:10782] exit with status 64000
+2019-06-13 17:48:32 pid:10780 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(214): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"chatMe...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"chatMe...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:32 pid:10780 Worker[10780] process terminated
+2019-06-13 17:48:32 pid:10764 worker[YourAppBusinessWorker:10780] exit with status 64000
+2019-06-13 17:48:34 pid:10784 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(214): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"chatMe...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"chatMe...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #56)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:34 pid:10784 Worker[10784] process terminated
+2019-06-13 17:48:34 pid:10764 worker[YourAppBusinessWorker:10784] exit with status 64000
+2019-06-13 17:48:40 pid:10785 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #56)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:40 pid:10785 Worker[10785] process terminated
+2019-06-13 17:48:40 pid:10764 worker[YourAppBusinessWorker:10785] exit with status 64000
+2019-06-13 17:48:42 pid:10783 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b56000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #54)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:42 pid:10783 Worker[10783] process terminated
+2019-06-13 17:48:42 pid:10764 worker[YourAppBusinessWorker:10783] exit with status 64000
+2019-06-13 17:48:44 pid:10777 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b57000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b57000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:44 pid:10777 Worker[10777] process terminated
+2019-06-13 17:48:44 pid:10764 worker[YourAppBusinessWorker:10777] exit with status 64000
+2019-06-13 17:48:45 pid:10781 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(41): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"init",...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"init",...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #50)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:45 pid:10781 Worker[10781] process terminated
+2019-06-13 17:48:45 pid:10764 worker[YourAppBusinessWorker:10781] exit with status 64000
+2019-06-13 17:48:58 pid:10789 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(214): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"chatMe...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"chatMe...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #58)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:48:58 pid:10789 Worker[10789] process terminated
+2019-06-13 17:48:58 pid:10764 worker[YourAppBusinessWorker:10789] exit with status 64000
+2019-06-13 17:49:06 pid:10790 PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1708
+Stack trace:
+#0 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1708): PDO->__construct('mysql:dbname=la...', 'root', '123456', Array)
+#1 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('127.0.0.1', 3306, 'root', '123456', 'laymi', 'utf8')
+#3 /www/wwwroot/layui.com/GatewayWorker/Applications/YourApp/Events.php(214): GatewayWorker\Lib\Db::instance('db1')
+#4 [internal function]: Events::onMessage('7f0000010b55000...', '{"type":"chatMe...')
+#5 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b55000...', '{"type":"chatMe...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59)
+#9 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#10 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(2321): Workerman\Events\Select->loop()
+#11 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#12 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1452): GatewayWorker\BusinessWorker->run()
+#13 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1282): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#14 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1256): Workerman\Worker::forkWorkersForLinux()
+#15 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1586): Workerman\Worker::forkWorkers()
+#16 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(1535): Workerman\Worker::monitorWorkersForLinux()
+#17 /www/wwwroot/layui.com/GatewayWorker/vendor/workerman/workerman/Worker.php(509): Workerman\Worker::monitorWorkers()
+#18 /www/wwwroot/layui.com/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#19 {main}
+2019-06-13 17:49:06 pid:10790 Worker[10790] process terminated
+2019-06-13 17:49:06 pid:10764 worker[YourAppBusinessWorker:10790] exit with status 64000
+2019-06-13 17:52:08 pid:10764 Workerman[start.php] stopping ...
+2019-06-13 17:52:08 pid:10764 Workerman[start.php] has been stopped
+2019-06-13 17:52:20 pid:10792 Workerman[start.php] start in DAEMON mode
