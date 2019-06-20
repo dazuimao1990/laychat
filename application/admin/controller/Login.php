@@ -34,10 +34,10 @@ class Login extends Controller
             return json(['code' => -5, 'data' => '', 'msg' => $result]);
         }
 
-        $verify = new Verify();
-        if (!$verify->check($code)) {
-            return json(['code' => -4, 'data' => '', 'msg' => '验证码错误']);
-        }
+        // $verify = new Verify();
+        // if (!$verify->check($code)) {
+        //     return json(['code' => -4, 'data' => '', 'msg' => '验证码错误']);
+        // }
 
         $hasUser = db('user')->where('username', $username)->find();
         if(empty($hasUser)){
