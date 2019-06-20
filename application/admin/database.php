@@ -5,13 +5,13 @@ return [
     // 服务器地址
     'hostname'       => '127.0.0.1',
     // 数据库名
-    'database'       => 'snake',
+    'database'       => 'admin',
     // 用户名
-    'username'       => 'root',
+    'username'       => 'laychat',
     // 密码
-    'password'       => 'root',
+    'password'       => 'laychat',
     // 端口
-    'hostport'       => '',
+    'hostport'       => '3306',
     // 连接dsn
     'dsn'            => '',
     // 数据库连接参数
